@@ -1,0 +1,23 @@
+{
+  "name": "@armanrozika/gatsby-source-fireimage",
+  "version": "1.0.0",
+  "description": "A gatsby plugin to source from firestore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"No build script setup\""
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "gatsby-plugin",
+    "gatsby-source-plugin",
+    "gatsby-source",
+    "gatsby"
+  ],
+  "author": "Arman Rozika <armanrozika@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^8.12.1"
+  }
+}
