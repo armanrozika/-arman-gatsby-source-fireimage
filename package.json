@@ -1,5 +1,5 @@
 {
-  "name": "@armanrozika/gatsby-source-fireimage",
+  "name": "gatsby-source-fireimage",
   "version": "1.0.0",
   "description": "A gatsby plugin to source from firestore",
   "main": "index.js",
