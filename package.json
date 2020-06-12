@@ -20,5 +20,9 @@
   "dependencies": {
     "firebase-admin": "^8.12.1",
     "gatsby-source-filesystem": "^2.3.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/armanrozika/gatsby-source-fireimage.git"
   }
 }
