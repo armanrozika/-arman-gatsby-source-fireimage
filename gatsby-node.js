@@ -23,7 +23,7 @@ exports.sourceNodes = async (
         parent: null,
         children: [],
         internal: {
-          type: "firebase",
+          type: "fireimage",
           content: JSON.stringify(doc.data()),
           contentDigest: createContentDigest(doc.data()),
         },
@@ -41,7 +41,7 @@ module.exports.onCreateNode = async ({
   cache,
   createNodeId,
 }) => {
-  if (node.internal.type === "firebase" && node.imgurl !== null) {
+  if (node.internal.type === "fireimage" && node.imgurl !== null) {
     let fileNode = await createRemoteFileNode({
       url: node.imgurl, // string that points to the URL of the image
       //attach this node to parent you want to, so the parent will have imgSrc

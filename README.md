@@ -31,10 +31,10 @@ module.exports = {
 
 You can find how to get admin credential here, [Firebase Admin](https://firebase.google.com/docs/admin/setup#add_firebase_to_your_app!).
 
-This plugin will also create an image node if your firebase collection has 'imgurl' property that point to the image url. This is useful if you want to use gatsby-image (you should use it for images).
+This plugin will also create an image node if your firebase collection has `imgurl` property that point to the image url. This is useful if you want to use gatsby-image (you should use it for images).
 
 ```javascript
-//example for books collection
+//example for books collection in firestore
 {
     title: "This is book title",
     description: "A book worth reading",
@@ -43,3 +43,5 @@ This plugin will also create an image node if your firebase collection has 'imgu
     imgurl: "https://via.placeholder.com/300/09f/fff.png"
 }
 ```
+
+In the graphiql, the name generated is `fireimage`. And the image under it (if any) is `imgSrc`.
