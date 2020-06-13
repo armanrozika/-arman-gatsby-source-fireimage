@@ -5,7 +5,7 @@ This is a simple plugin to transform firestore collection into gatsby pages. It 
 **install**
 
 ```
-npm install google-source-fireimage
+npm install gatsby-source-fireimage
 ```
 
 **gatsby config**
