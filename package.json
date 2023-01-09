@@ -18,7 +18,7 @@
   "author": "Arman Rozika <armanrozika@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "firebase-admin": "^8.12.1",
+    "firebase-admin": "^11.4.1",
     "gatsby-source-filesystem": "^2.3.11"
   },
   "repository": {
